@@ -1,0 +1,18 @@
+Source: python-concurrent.futures
+Maintainer: Alex Gronholm <alex.gronholm+pypi@nextday.fi>
+Section: python
+Priority: optional
+Build-Depends:
+  debhelper (>= 8),
+  python,
+  python-support,
+  python-setuptools,
+Standards-Version: 3.9.3
+
+Package: python-concurrent.futures
+Architecture: all
+Depends:
+  ${misc:Depends},
+  ${python:Depends}
+Replaces: python-futures
+Description: Backport of the concurrent.futures package from Python 3.5

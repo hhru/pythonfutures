@@ -1,0 +1,5 @@
+python-concurrent.futures (3.0.5-1+hh0) unstable; urgency=low
+
+  * debianize 3.0.5 version
+
+ -- Andrey Sumin <an.sumin@hh.ru>  Mon, 29 Aug 2016 12:56:30 +0300

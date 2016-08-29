@@ -5,3 +5,8 @@ dist
 .pydevproject
 .idea
 .tox
+
+debian/files
+debian/python-concurrent.futures*
+debian/python-concurrent.futures/
+build/
