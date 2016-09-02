@@ -2,3 +2,6 @@
 
 %:
 	dh $@
+
+override_dh_auto_test:
+	python test_futures.py || exit 1
